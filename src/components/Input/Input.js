@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './Input.scss'
 
 const Input = () => {
     
@@ -10,7 +11,7 @@ const Input = () => {
     }
 
     return (
-        <div>
+        <div className='input-container'>
             <p>Select Video File</p>
             <input type='file' value={file} onChange={fileChangeHandler} />
         </div>

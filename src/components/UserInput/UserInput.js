@@ -7,7 +7,7 @@ const UserInput = () => {
     return (
         <div className='userinput-container'>
             <Input />
-            <Placeholder />
+            {/* <Placeholder /> */}
         </div>
     )
 }

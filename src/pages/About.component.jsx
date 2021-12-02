@@ -1,11 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header/Header'
-import Input from '../components/Input/Input'
 
-const About = () => {
+const About = () => {    
     return (
         <div>
             <Header page='about' />
+            <p>This is the about page</p>
         </div>
     )
 }
